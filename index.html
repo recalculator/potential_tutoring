@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayaan's Tutoring and YouTube</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Ayaan's Learning Hub</h1>
+    <p>Teaching with Passion, Sharing Knowledge on YouTube</p>
+    <button onclick="scrollToSection('contact')">Contact Me</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Ayaan, a passionate tutor and YouTuber. Let's learn and grow together!</p>
+    <img src="assets/about.jpg" alt="Ayaan teaching">
+  </section>
+
+  <section id="services">
+    <h2>Tutoring Services</h2>
+    <ul>
+      <li>Mathematics</li>
+      <li>Science</li>
+      <li>Coding</li>
+    </ul>
+    <button onclick="scrollToSection('contact')">Book a Session</button>
+  </section>
+
+  <section id="youtube">
+    <h2>Watch My Videos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sample" frameborder="0"></iframe>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Ayaan's Learning Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
